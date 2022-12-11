@@ -3,9 +3,7 @@
     <h1>Product</h1>
     <div class="grid grid-cols-4 gap-5">
       <div v-for="p in products" :key="p.id">
-        <NuxtLink :to="`/products/${p.id}`">
-          {{ p.title }}
-        </NuxtLink>
+        <ProductCard :product="p" />
       </div>
     </div>
   </div>
@@ -25,6 +23,7 @@ h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
+
 p {
   margin: 20px 0;
 }

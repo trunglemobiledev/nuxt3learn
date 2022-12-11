@@ -11,6 +11,9 @@
             <NuxtLink to="/about">About</NuxtLink>
           </li>
           <li>
+            <NuxtLink to="/products/abc">abc</NuxtLink>
+          </li>
+          <li>
             <NuxtLink to="/products" class="btn">Product</NuxtLink>
           </li>
         </ul>
