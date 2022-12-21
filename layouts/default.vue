@@ -10,9 +10,9 @@
           <li>
             <NuxtLink to="/about">About</NuxtLink>
           </li>
-          <li>
+          <!-- <li>
             <NuxtLink to="/products/abc">abc</NuxtLink>
-          </li>
+          </li> -->
           <li>
             <NuxtLink to="/products" class="btn">Product</NuxtLink>
           </li>
